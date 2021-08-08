@@ -1,0 +1,22 @@
+{
+  "name": "mocha-es6-typescript",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha --require @babel/register --require ts-node/register tests/**/*.spec.ts"
+  },
+  "main": "background.js",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  },
+  "_id": "mocha-es6-typescript-example@0.0.1",
+  "license": "MIT"
+}
